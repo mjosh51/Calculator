@@ -11,7 +11,7 @@
 .calculator {
   position: absolute;
   left: 50%;
-  transform: translateX(-50);
+  transform: translate(-50, -50);
   top: 10%;
   background: rgba(35, 37, 47, 0.9);
   padding-top: 7rem;
