@@ -1,0 +1,130 @@
+/*Probably might update this app styling later */
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: Gotham Rounded, sans-serif;
+  font-weight: normal;
+}
+
+
+.calculator {
+  position: absolute;
+  left: 20%;
+  transform: translateX(-50);
+  top: 10%;
+  background: rgba(35, 37, 47, 0.9);
+  padding-top: 7rem;
+}
+
+.display-result {
+  width: 17rem;
+  height: 6.5rem;
+  position: absolute;
+  top: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  z-index: 2;
+  /* border: none; */
+  background: none;
+  padding: 0.7rem 0;
+  padding-right: 9%;
+  text-align: right;
+}
+
+.display-text-input {
+  width: 17rem;
+  height: 2rem;
+  font-size: 1.5rem;
+  z-index: 2;
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: none;
+  background: none;
+  padding: 0.7rem 0;
+  padding-right: 9%;
+  text-align: right;
+}
+
+
+
+.display {
+  width: 15.5rem;
+  height: 3rem;
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: right;
+  font-size: 1.5rem;
+  z-index: 10;
+  border: none;
+  background: none;
+  color: rgba(50, 152, 203, 0.828);
+  padding-right: 9%;
+}
+
+.display:focus {
+  outline: none;
+}
+
+/* .topRow {
+  border: 2px solid;
+} */
+
+.backspace {
+  float: right;
+  border: none;
+  background: none;
+  height: 2rem;
+  border: none;
+  padding: 0;
+}
+
+.calc-rows {
+  display: grid;
+}
+
+
+.firstRow {
+  display: flex;
+}
+
+.secondRow {
+  display: flex;
+  
+}
+
+.thirdRow {
+  display: flex;
+}
+
+.fourthRow {
+  display: flex;
+}
+
+.fifthRow {
+  display: flex;
+}
+
+button {
+  width: 70px;
+  background: rgb(35, 37, 47);
+  border: 0.1px solid rgb(127, 127, 127, 0.2);
+  padding: 1rem 0.05rem;
+  text-align: center;
+  color: rgba(50, 152, 203, 0.828);
+  font-size: 1.2rem;
+}
+
+.operator {
+  font-size: 1.5rem;
+}
+
+.special {
+  background: rgba(41, 41, 41, 0.4);
+}
+

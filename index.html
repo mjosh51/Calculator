@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Basic Calculator</title>
+    <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, shrink-to-fit=no, viewport-fit=cover"/>
+    <link rel="stylesheet" href="css/cal.css">
+  </head>
+  <body>
+    <!-- Might probably update this app structure-->
+    <div class="calculator">
+        <input class="display-result" type="text" value="" disabled />
+        <!-- <div data-previous-value class="previous-value"></div>
+        <div data-current-value class="current-value"></div>  -->
+        <input class="display-text-input" type="text" value="" disabled />
+      <div class="calc-rows">
+        <div class="topRow">
+          <button data-delete class="backspace">DEL</button>
+        </div> 
+        <div class="firstRow">
+          <button type="button" value="clear-all" class="clear-all special">C</button>
+          <button type="button" value="(" class="special">&#40;&#41;</button>
+          <button type="button" value="%" class="special">&percnt;</button>
+          <button type="button" value="/" class="operator is-active special">&divide;</button>
+        </div>
+        <div class="secondRow">
+          <button type="button" value="7">7</button>
+          <button type="button" value="8">8</button>
+          <button type="button" value="9">9</button>
+          <button type="button" value="*" class="operator is-active special">&times;</button>
+        </div>
+        <div class="thirdRow">
+          <button type="button" value="4">4</button>
+          <button type="button" value="5">5</button>
+          <button type="button" value="6">6</button>
+          <button type="button" value="-" class="operator is-active special">&minus;</button>
+        </div>
+        <div class="fourthRow">
+          <button type="button" value="1">1</button>
+          <button type="button" value="2">2</button>
+          <button type="button" value="3">3</button>
+          <button type="button" value="+" class="operator is-active special">&plus;</button>
+        </div>
+        <div class="fifthRow">
+          <button type="button" value="+/-">&PlusMinus;</button>
+          <button type="button" value="0">0</button>
+          <button type="button" class="decimal" value=".">.</button>
+          <button type="button" value="=" class="equal_to operator special">&equals;</button>
+        </div>
+      </div>
+    </div>
+    <script src="js/cal.js">
+
+
+    </script>
+  </body>
+</html>
